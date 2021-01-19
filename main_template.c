@@ -22,9 +22,9 @@
  *
  * LAB REQUIREMENTS:
  *
- * 1. Illuminate LED1 as long as LP_S1 is pressed
- * 2. Illuminate LED2 as long as LP_S2 is pressed
- * 3. Switch the color of the RGB LED each time MKII_S1 is pressed
+ * 1. Illuminate LED1 as long as S1 (on the LaunchPad) is pressed; if S1 is not pressed, LED1 should be unlit
+ * 2. Illuminate LED2 as long as S2 (on the LaunchPad) is pressed; if S2 is not pressed, LED1 should be unlit
+ * 3. Cycle the color of the RGB LED each time MKII_S1 is pressed; the repeating cycle should be RED-BLUE-GREEN
  *
  * Note: Do not forget to turn off optimization for your CCS project!
  *
